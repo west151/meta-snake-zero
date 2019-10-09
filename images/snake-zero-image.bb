@@ -26,6 +26,9 @@ TOOLS_INSTALL = " \
     mc \
     htop \
     tcpdump \
+    bluez5 \
+    pi-bluetooth \
+    wpa-supplicant \
 "
 
 DEV_SDK_INSTALL = " \
@@ -158,6 +161,8 @@ MQTT_DEV = " \
 
 GPIO = " \
     bcm2835-dev \
+    rpi-gpio \
+    rpio \
 "
 
 IMAGE_INSTALL += " \
