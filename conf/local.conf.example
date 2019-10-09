@@ -18,7 +18,6 @@ MACHINE_FEATURES_remove = "apm"
 #IMAGE_FSTYPES ?= "tar.xz"
 IMAGE_FSTYPES ?= "tar.bz2 ext3 rpi-sdimg"
 
-#PREFERRED_VERSION_linux-raspberrypi = "4.14.%"
 PREFERRED_VERSION_linux-raspberrypi = "4.19.%"
 
 # Choose the board you are building for
@@ -39,18 +38,16 @@ DL_DIR ?= "${TOPDIR}/downloads"
 SSTATE_DIR ?= "${TOPDIR}/sstate-cache"
 TMPDIR = "${TOPDIR}/tmp"
 
-# i2c
-ENABLE_I2C = "1"
 # SPLASH
 DISABLE_SPLASH = "1"
 # WAVESHARE DISPLAY
 WAVESHARE_1024X600_C_2_1 = "1"
-# UART
-ENABLE_UART = "1"
 #
 ENABLE_KGDB = "1"
 #
 DISABLE_RPI_BOOT_LOGO = "1"
+
+DISABLE_VC4GRAPHICS = "1"
 
 #KERNEL_DEVICETREE_remove = "bcm2708-rpi-0-w.dtb"
 
