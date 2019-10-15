@@ -14,5 +14,5 @@ BBLAYERS ?= " \
     ${HOME}/poky/meta-openembedded/meta-python \
     ${HOME}/poky/meta-raspberrypi \
     ${HOME}/poky/meta-qt5 \    
-    ${HOME}/poky/meta-snake \
+    ${HOME}/poky/meta-snake-zero \
   "
