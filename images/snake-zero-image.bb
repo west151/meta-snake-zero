@@ -70,17 +70,6 @@ FONTS_DEV = " \
     fontconfig-dev \
 "
 
-TSLIB = " \
-    tslib \
-    tslib-conf \
-    tslib-calibrate \
-    tslib-tests \
-"
-
-TSLIB_DEV = " \
-    tslib-dev \
-"
-
 QT_TOOLS = " \
     qtbase \
     qtbase-plugins \
@@ -94,19 +83,13 @@ QT_DEV_TOOLS = " \
 "
 
 QT5_DEV_PKGS = " \
-    qtcharts-dev \
-    qtcharts-mkspecs \
     qtconnectivity-dev \
     qtconnectivity-mkspecs \
-    qtdeclarative-dev \
-    qtdeclarative-mkspecs \
     qtgraphicaleffects-dev \
     qtlocation-dev \
     qtlocation-mkspecs \
     qtmultimedia-dev \
     qtmultimedia-mkspecs \
-    qtquickcontrols2-dev \
-    qtquickcontrols2-mkspecs \
     qtsensors-dev \
     qtsensors-mkspecs \
     qtserialbus-dev \
@@ -115,7 +98,6 @@ QT5_DEV_PKGS = " \
     qtsvg-mkspecs \
     qtwebsockets-dev \
     qtwebsockets-mkspecs \
-    qtvirtualkeyboard-dev \
     qtxmlpatterns-dev \
     qtxmlpatterns-mkspecs \
     qtserialport-dev \
@@ -124,28 +106,17 @@ QT5_DEV_PKGS = " \
     qtmqtt-mkspecs \
 "
 QT5_PKGS = " \
-    qtcharts \
-    qtdeclarative \
-    qtdeclarative-plugins \
-    qtdeclarative-qmlplugins \
     qtgraphicaleffects \
     qtlocation-plugins \
     qtmultimedia \
-    qtquickcontrols2 \
     qtsensors-plugins \
     qtserialbus \
     qtsvg \
     qtwebsockets-qmlplugins \
-    qtvirtualkeyboard \
     qtxmlpatterns \
     qtserialport \
     qtmqtt \
 "
-
-# QT 5.12
-QT5_PKGS_WEBGL = " \
-    qtwebglplugin \
-" 
 
 MQTT = " \
     libmosquitto1 \
@@ -171,12 +142,9 @@ IMAGE_INSTALL += " \
     ${I2C_TOOLS} \
     ${FONTS} \
     ${FONTS_DEV} \
-    ${TSLIB} \
-    ${TSLIB_DEV} \
     ${QT_TOOLS} \
     ${QT_DEV_TOOLS} \
     ${QT5_PKGS} \
-    ${QT5_PKGS_WEBGL} \
     ${QT5_DEV_PKGS} \
     ${MQTT} \
     ${MQTT_DEV} \
