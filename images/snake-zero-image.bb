@@ -53,7 +53,6 @@ DEV_SDK_INSTALL = " \
     make \
     perl-modules \
     pkgconfig \
-    python-modules \
 "
 
 I2C_TOOLS = " \
@@ -127,7 +126,6 @@ MQTT = " \
 
 MQTT_DEV = " \
     mosquitto-dev \
-    python-paho-mqtt \
 "
 
 GPIO = " \

@@ -7,8 +7,6 @@ IMAGE_LINGUAS = "en-us"
 
 inherit core-image
 
-DEPENDS += "bcm2835-bootfiles"
-
 CORE_OS = " \
     openssh \
     openssh-keygen \
